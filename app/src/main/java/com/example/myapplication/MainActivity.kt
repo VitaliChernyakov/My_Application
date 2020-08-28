@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         val textView: TextView = findViewById(R.id.title)
         textView.setOnClickListener {
-//            openSecondActivity()
+            openSecondActivity()
 
 
             openUrl("http://google.com")
